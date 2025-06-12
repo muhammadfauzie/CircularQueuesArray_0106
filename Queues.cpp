@@ -55,4 +55,7 @@ class Queues
                 cout << "Queues underflow\n";
                 return;
             }
+
+            cout << "\nThe element deleted from the queue is: " << queues_array[FRONT] << "\n";
+
         }};
